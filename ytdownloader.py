@@ -5,7 +5,7 @@ def download_video(url, output_path):
     try:
         print(f"Memulai Download video dari url {url}.")
         os.makedirs(output_path, exist_ok=True)
-        command = [
+        command = [                                              #change with your cookies youtube if download not work
             'yt-dlp',
             '-o', os.path.join(output_path, '%(title)s.%(ext)s'),
             url
