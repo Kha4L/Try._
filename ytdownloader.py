@@ -39,7 +39,7 @@ def main():
     print("Masukan Link Video atau playlist")
 
     while True:
-        #Tanya user mau download apaan
+       
         mode = input('pilih Mode download (Video/Playlist) q= buat keluar: ').strip().lower()
 
         if mode.lower() == 'q':
